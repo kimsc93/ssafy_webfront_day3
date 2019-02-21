@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./css/common.css">
+<style>
+.card{
+	width:200px;
+	height:100px;
+	padding:10px;
+	margin:10px;
+
+}
+.card_header{
+	background:red;
+	color:white;
+	font-weight: bolder;
+	border:5px solid black;
+	margin-bottom: 10px;
+}
+.poster{
+	width:200px;
+}
+.card_title{
+	font-weight:bold;
+}
+</style>
+</head>
+<body>
+	<!-- 전체를 담을 영역 가로 960,가운데 정렬 -->
+	<div id="container">
+		<div id="head">
+			<h1 class="fleft">무비차트</h1>
+			<ul class="lnb fright">
+				<li>무비차트</li>
+				<li>상영예정작</li>
+				<li>CGV아트하우스</li>
+			</ul>
+			<hr class="fclear">
+		</div>
+		<div id="filter">
+			<div class="fleft">
+				<input type="checkbox" id="now"><label for="now">현재 상영작만 보기</label>
+			</div>
+			<div class="fright">
+				<select>
+					<option>예매율순
+					<option>평점순
+					<option>관람객순
+				</select>
+				<button>GO</button>
+			</div>
+		</div>
+		<div class="fclear" id="movies">
+			<div class="fleft card">
+				<div class="card_header">NO.1</div>
+				<img class="poster"
+					src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000081/81552/81552_1000.jpg">
+				<div class="card_title">극한직업</div>
+			</div>
+			<div class="fleft card">				
+				<div class="card_header">NO.1</div>
+				<img class="poster"
+					src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000081/81552/81552_1000.jpg">
+				<div class="card_title">극한직업</div>
+			</div>
+			<div class="fleft card">
+				<div class="card_header">NO.1</div>
+				<img class="poster"
+					src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000081/81552/81552_1000.jpg">
+				<div class="card_title">극한직업</div>
+			</div>
+			<div class="fleft card">
+				<div class="card_header">NO.1</div>
+				<img class="poster"
+					src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000081/81552/81552_1000.jpg">
+				<div class="card_title">극한직업</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
